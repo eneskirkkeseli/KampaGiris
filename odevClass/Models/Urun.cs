@@ -10,6 +10,7 @@
         public string paraBirimi { get; set; }
         public string ıtemİsareti { get; set; }
         public int Description { get; set; }
+        public string Name { get; set; }
     }
               
 }
