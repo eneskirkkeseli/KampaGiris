@@ -21,8 +21,8 @@ namespace DegerVeReferansTipler
             sayilar2[0] = 999;
             Console.WriteLine(sayilar1[0]);
 
-            //int, float, double, string, bool = değer tipi
-            //class, array[dizi], interface = referans tipi
+            //int, float, double, string, bool = değer tipi = steak te depolanır
+            //class, array[dizi], interface = referans tipi = heap de depolanır.
         }
     }
 }
