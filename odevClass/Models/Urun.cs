@@ -2,6 +2,7 @@
 {
     class Urun
     {
+        public int Id  { get; set; }
         public string ıtemAdı { get; set; }
         public int ıtemFıyatı { get; set; }
         public int ıtemAdetı { get; set; }
