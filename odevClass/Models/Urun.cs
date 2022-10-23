@@ -1,4 +1,4 @@
-﻿namespace odevClass
+﻿namespace odevClass.Models
 {
     class Urun
     {
