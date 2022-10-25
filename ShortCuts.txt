@@ -1,0 +1,12 @@
+------Shotcuts------
+- Ctrl+Sağ ok => bir sonraki kelimeye kadar imleci götürür
+- Ctrl+Shift+Sağ ok => bir sonraki kelimeye kadar olan kelimeleri seçer
+- Ctrl+D => mevcut satırı dublicate edip aynı satırın kopyasını oluşturur alt satıra
+- Ctrl+T => Proje içerisindeki method, class ismi vs isimleri arar
+- Ctrl+Shift+F => Projede o kelime geçen herşeyi gösterir
+- Ctrl+MouseSolClick => ilgili class'ın bulunduğu asıl kod dizinini gösterir
+- Shift+F12 => Bir metodun yada classın üstüne geldikten sonra basılır ve o methodun kullanıldığı yerleri gösterir
+- Alt+YukarıOkTuşu => Mevcut satırı bir üst satıra taşır
+- Ctrl+"Tuşu => Dittoyu açar ctrl c ile kopyaladıklarını gösterir
+- Ctrl+. => Hata ipuçlarını görmek için yapılır.
+
