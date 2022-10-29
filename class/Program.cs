@@ -7,19 +7,19 @@ namespace classlar
     static void Main(string[] args)
     {
             Kurs kurs1 = new Kurs();
-            kurs1.kursAdi = "c#";
-            kurs1.izlenmeOranı = 87;
-            kurs1.eğitmen = "engin";
+            kurs1.KursAdi = "c#";
+            kurs1.IzlenmeOranı = 87;
+            kurs1.Egitmen = "engin";
 
             Kurs kurs2 = new Kurs();
-            kurs2.kursAdi = "c-d#";
-            kurs2.izlenmeOranı = 87;
-            kurs2.eğitmen = "engin";
+            kurs2.KursAdi = "c-d#";
+            kurs2.IzlenmeOranı = 87;
+            kurs2.Egitmen = "engin";
 
             Kurs kurs3 = new Kurs();
-            kurs3.kursAdi = "c#";
-            kurs3.izlenmeOranı = 87;
-            kurs3.eğitmen = "engin";
+            kurs3.KursAdi = "c#";
+            kurs3.IzlenmeOranı = 87;
+            kurs3.Egitmen = "engin";
 //buraya eklemeler yapabilir çıkartmalar da yapabilirim.sadece yapınca dizilere de aynı işlemi yapmayı unutma.
 
             //Console.WriteLine(kurs1.eğitmen + " " + kurs1.kursAdi); şeklinde yazdırabilirim.
@@ -31,7 +31,7 @@ namespace classlar
 //soktum.Zaten döngüde de dizi içindeki elemanların yazılımını sağladım bu sayede.Yazdıracağım eleman ise yine
 //kurs dizisinin içindeki eleman olacaktır.hangisini öğrenmek istersen kurs.eğitmen veya kullanıcı adı yazabilirsin.
             {
-                Console.WriteLine(kurs.eğitmen + " " + kurs.kursAdi);
+                Console.WriteLine(kurs.Egitmen + " " + kurs.KursAdi);
             }
 
         }        
@@ -39,9 +39,9 @@ namespace classlar
 //prop yazıp çift tab yapınca clas altındaki şablon açılır direkt.
     class Kurs 
      {
-            public string kursAdi { get; set; }
-            public string eğitmen { get; set; }
-            public int izlenmeOranı { get; set; }
+            public string KursAdi { get; set; }
+            public string Egitmen { get; set; }
+            public int IzlenmeOranı { get; set; }
 //ÇOK ÖNEMLİ NOT: Web sitesinde bulunan bir şablon ve içinde bir sürü içerik düşün.Bu içeriklerin hepsi birleşip
 //nesneyi oluştururlar yani şablonu.Bu nesne içinde birbirindenden farklı tipte değişkenler tutulacağı için hepsi
 //class komutu ile toplanır.Burada o şablon kurs objesi olsun.ve yine unutma sen "class" koutu ile Kurs'u 

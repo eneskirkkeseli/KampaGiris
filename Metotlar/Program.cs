@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Metotlar
 {
@@ -6,7 +7,7 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-            Urun urun1 = new Urun();
+            Urun urun1 = new Urun();  //new ile classtan bir obje oluşturulur.Ve referans numarası kullandığın bölüme atanır.
             urun1.urunAdi = "Tavuk";
             urun1.urunFiyati = 49.90;
             urun1.urunGramı = 220;
@@ -37,6 +38,7 @@ namespace Metotlar
             urun5.urunAcıklama = "Fümeli";
 
             Urun[] yiyecekler = new Urun[] { urun1, urun2, urun3, urun4, urun5 };
+
             
             //type safe için "var" olan kısma classla belirlediğimiz tipi giriyoruz.
             foreach (Urun döngü1 in yiyecekler)
@@ -69,3 +71,8 @@ namespace Metotlar
 //Id atamaları o ürünün diğer ürünlerden ayıran özelliğidir.Classlarda Prop atayınca verdiğimiz atamalardan biri
 //Id atamsı olursa aklına gelsin.
 //property= özellik demektir.
+
+    //void ve return farkı:
+//burada ise başka sayfada tekrardan yazdırabiliyorum.Bunun nedeniyse methodda return komutuyla yapmamız.bunu voidde yapamayız.
+//string, int gibi bölümlerde return kullanabiliriz.Mantık şu tekrar o methodu kullanmak için return sadece orada kullanmak         için void kullandık.Değer döndüren methodlar return olarak geçer ve return her kullandığın yerde değerlerin girilmesiyle senin      sonucunu verir.Void öyle değil sadece belirlediğin sonuçları verir aksi halde sonuç almazsın.
+//başka sayfada tekrardan çağrım yapamayız çünkü voidle işlemi burada sonlandırdık.

@@ -9,4 +9,6 @@
 - Alt+YukarıOkTuşu => Mevcut satırı bir üst satıra taşır
 - Ctrl+"Tuşu => Dittoyu açar ctrl c ile kopyaladıklarını gösterir
 - Ctrl+. => Hata ipuçlarını görmek için yapılır.
-
+- Ctrl+R+R => Seçilen kelimeyi her sayfada değiştirir.
+- Ctrl+K+Ctrl+C seçili bölgeyi commend satırına alır.
+- Shift+Yukarı tuşu satırları işaretler.

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Constructor_Generic_ReferenceType</RootNamespace>
   </PropertyGroup>
 
 </Project>

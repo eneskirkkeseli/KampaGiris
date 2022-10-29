@@ -8,12 +8,12 @@ namespace ClassMetotDemo
     {
         public void Giris(MusteriGiris musteriManager)
         {
-            Console.WriteLine("Başarıyla Sisteme Giriş Yaptınız Sayın " + musteriManager.Adi1+" "+musteriManager.Soyadi1);
+            Console.WriteLine("Başarıyla Sisteme Giriş Yaptınız Sayın " + musteriManager.Adi1 + " " + musteriManager.Soyadi1);
         }
 
-        public void Listele(MusteriKayit musteriManager) 
+        public void Listele(MusteriKayit musteriManager)
         {
-            Console.WriteLine(musteriManager.musteriAdi+" "+musteriManager.musteriSoyadi);
+            Console.WriteLine(musteriManager.musteriAdi + " " + musteriManager.musteriSoyadi);
         }
 
 

@@ -6,7 +6,7 @@ namespace Döngüler
     {
         static void Main(string[] args)
         {
-            //NOT: Biz birden fazla verimizi ayrı ayrı tanımlamaktansa dizilerde(array) tutarız bu verileri.
+            //NOT: Biz birden fazla verimizi ayrı ayrı tanımlamaktansa dizilerde(array) tutarız bu verileri.İlerde bunun yerine daha işlevli olan List<x> kullanılacak.
             //NOT: kurslar bizim dizimize atadığımız başlık.
             string[] kurslar = new string[] { "matematik", "kimya", "fizik" };
             //NOT: string[] demek ben birden fazla veriyi tek stringte tutmak istiyorum demek.
