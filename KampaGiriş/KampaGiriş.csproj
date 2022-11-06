@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\Enes\Desktop\C# GİRİŞ.cs" Link="C# GİRİŞ.cs" />
-  </ItemGroup>
-
 </Project>

@@ -21,7 +21,7 @@ namespace DegerVeReferansTipler
             //int, float, double, string, bool = değer tipi = steak te depolanır
             //class, array[dizi], interface = referans tipi = heap de depolanır.
 
-            Person Person1 = new Person();
+            Person Person1 = new Employee();
             Person1.Id = 1;
             Person1.FirstName = "Enes";
             Person1.LastName = "KIRKKESELİ";
@@ -35,12 +35,8 @@ namespace DegerVeReferansTipler
             Person Person2 = new Customer();
             customer.FirstName = "Ali";
 
-
-
             Console.WriteLine(((Customer)Person2).FirstName); //Mantığını tekrar sor ve neden çalışmadığına bak...
-
-
-
+            Console.WriteLine(((Employee)Person1).FirstName);
         }
     }
     class Person //Person classına Parent class diyelim. Altına da child classlar ekleyelim. Mantıken child classlar kalıtımı Parent classtan alacak. Dolayısıyla Parent classta hangi durumlar varsa aynıları child için de geçerli olacak. Parent class Person, ona bağlı olan Child classlar ise Employee ve Customer olacak. ÖNEMLİ NOT: Child classlarda yaptığımız değişiklikler personda görülemez. O classa özeldir sadece.

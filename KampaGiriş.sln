@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{271A93B3-24CB-4495-AD48-237E52DB9F77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor-Generic-ReferenceType", "Constructor-Generic-ReferenceType\Constructor-Generic-ReferenceType.csproj", "{8BD2D4C3-7829-4FF7-833B-8519F7CA194D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor-Generic", "Constructor-Generic-ReferenceType\Constructor-Generic.csproj", "{8BD2D4C3-7829-4FF7-833B-8519F7CA194D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleMVCProject", "ExampleMVCProject\ExampleMVCProject.csproj", "{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8BD2D4C3-7829-4FF7-833B-8519F7CA194D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD2D4C3-7829-4FF7-833B-8519F7CA194D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD2D4C3-7829-4FF7-833B-8519F7CA194D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
