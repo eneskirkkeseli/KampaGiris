@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor-Generic", "Constructor-Generic-ReferenceType\Constructor-Generic.csproj", "{8BD2D4C3-7829-4FF7-833B-8519F7CA194D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleMVCProject", "ExampleMVCProject\ExampleMVCProject.csproj", "{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleMVCProject", "ExampleMVCProject\ExampleMVCProject.csproj", "{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
