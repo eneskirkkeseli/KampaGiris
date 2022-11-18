@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor-Generic", "Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleMVCProject", "ExampleMVCProject\ExampleMVCProject.csproj", "{E3B83E2E-B498-4E2F-817E-E1A86A18A0AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{29B888D5-79A4-4ADA-B6F9-F36242AFAF7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQProject", "LINQProject\LINQProject.csproj", "{75A16910-23DC-4203-B57A-182B699DF6C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A16910-23DC-4203-B57A-182B699DF6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A16910-23DC-4203-B57A-182B699DF6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A16910-23DC-4203-B57A-182B699DF6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A16910-23DC-4203-B57A-182B699DF6C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,6 +15,7 @@ namespace OOP3
             }
         }
 
+
         public void KrediOnbilgilendirmesiYap(List<ICreditManager> krediler) //Şunu diyoruz: Bana türü ICreditManager olan listeleri getir.
         {
             foreach (var credit in krediler) //burada döndürmemizin nedeni müşteriye tüm kredilerin hesaplanması için seçenekleri göndermek.
