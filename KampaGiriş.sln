@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{4CDA7882-BCB6-4F88-B7D1-AF91ED37839E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQProject", "LINQProject\LINQProject.csproj", "{75A16910-23DC-4203-B57A-182B699DF6C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQProject", "LINQProject\LINQProject.csproj", "{75A16910-23DC-4203-B57A-182B699DF6C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{458F66D4-89A6-4E45-8D87-24351752846E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{75A16910-23DC-4203-B57A-182B699DF6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75A16910-23DC-4203-B57A-182B699DF6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A16910-23DC-4203-B57A-182B699DF6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458F66D4-89A6-4E45-8D87-24351752846E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458F66D4-89A6-4E45-8D87-24351752846E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458F66D4-89A6-4E45-8D87-24351752846E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458F66D4-89A6-4E45-8D87-24351752846E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "KampaGiriş": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56265;http://localhost:56271"
+    }
+  }
+}
